@@ -5,9 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Flowers</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome css -->
+    <script src="https://kit.fontawesome.com/7a0051261c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- header section -->
+    <header class="max-w-[1140px] m-auto py-8 px-2">
+        <!-- nav section -->
+        <nav class="flex justify-between items-center">
+            <div>
+                <img class="w-[63px] h-[38px] md:w-auto md:h-auto" src="./assets/logo.png" alt="flower logo">
+            </div>
+
+            <div class="flex space-x-7 items-center">
+                <ul class="hidden md:flex items-center space-x-7">
+                    <li class="relative group  opacity-75 hover:opacity-100 cursor-pointer">Home
+                        <span class="absolute left-0 bottom-0 h-[2px] w-0 bg-black transition-all 
+                            duration-500 ease-in-out group-hover:w-full"></span>
+                    </li>
+                    <li class="relative group  opacity-75 hover:opacity-100 cursor-pointer">Shop
+                        <span class="absolute left-0 bottom-0 h-[2px] w-0 bg-black transition-all 
+                            duration-500 ease-in-out group-hover:w-full"></span>
+                    </li>
+                    <li class="relative group  opacity-75 hover:opacity-100 cursor-pointer">About Us
+                        <span class="absolute left-0 bottom-0 h-[2px] w-0 bg-black transition-all 
+                            duration-500 ease-in-out group-hover:w-full"></span>
+                    </li>
+                </ul>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping stroke-2"></i>
+                        Cart ($56)
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+    </header>
 
 </body>
 
